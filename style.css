@@ -1,0 +1,258 @@
+/* Default styles */
+
+.courier-prime-regular {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .courier-prime-bold {
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .courier-prime-bold-italic {
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .courier-prime-regular-italic {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+
+
+
+
+
+
+
+head {
+
+    font-family: 'Courier New', Courier, monospace
+}
+
+
+body {
+    background-color: green;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.frame {
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Navigator */
+
+.navigator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid cornsilk;
+}
+
+li {
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    display: inline;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-name {
+    margin: 0;
+    font-size: 24px;
+    color: cornsilk;
+    text-decoration: none;
+}
+
+a {
+    color: cornsilk;
+    text-decoration: none;
+    
+}
+
+/* Dashboard */
+.dashboard {
+    padding: 20px 0;
+    color: cornsilk;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    color: cornsilk;
+    border-top: 1px solid cornsilk;
+}
+
+.instagram,
+.youtube,
+.soundcloud {
+    font-size: 13px;
+    margin: 5px;
+}
+
+.instagram:hover,
+.youtube:hover,
+.soundcloud:hover {
+    color: cornsilk;
+}
+
+.don9e {
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+    .frame {
+        margin: 5px;
+    }
+
+    .navigator {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        margin: 5px;
+        text-align: center;
+    }
+
+    ul {
+        justify-content: center;
+    }
+
+    .site-name {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .footer {
+        align-items: center;
+    }
+
+    
+}
+
+.video{
+    max-width: 80%; 
+    display: block; 
+    margin: 20px auto;
+}
+
+
+
+
+p{
+    font-size: 14px;
+}
+
+
+
+/* Additional styles for the image grid */
+
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* On mobile, show one column */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.grid-image113 {
+    width: 100%;
+    height: auto;
+    max-width: 100%; /* Ensure images don't exceed container width */
+    max-height: 100%; /* Ensure images don't exceed container height */
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+}
+
+#dish-egg{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Additional styles for the image grid */
+.zine-display {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.grid-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-caption {
+    text-align: left;
+    padding-left: 10px; /* 왼쪽 여백을 추가합니다. */
+    margin-right: 10px; /* 오른쪽으로 약간 이동시킵니다. */
+}
+
+.grid-image-item {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-caption p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.image-caption:hover p {
+    color: darkgrey;
+}
+
+/* ... (기존 스타일 코드) ... */
+
+
+/* Additional styles for the image grid */
+@media (max-width: 768px) {
+    .zine-display {
+        grid-template-columns: repeat(2, 1fr); /* 스마트폰에서 가로로 2개씩 나오도록 변경 */
+        gap: 15px; /* 간격을 조정하여 더 넓은 여백을 만듭니다 */
+        margin-top: 40px; /* 위쪽 여백을 조금 줄입니다 */
+    }
+    
+    .image-caption {
+        text-align: left; /* 텍스트를 가운데로 정렬합니다 */
+        padding-left: 5px; /* 왼쪽 여백 제거 */
+        margin-right: 10px; /* 오른쪽 여백 제거 */
+    }
+}
