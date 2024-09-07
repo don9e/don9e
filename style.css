@@ -1,5 +1,9 @@
 /* Default styles */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+
 .courier-prime-regular {
     font-family: "Courier Prime", monospace;
     font-weight: 400;
@@ -40,7 +44,8 @@ head {
 body {
     background-color: green;
     margin: 0;
-    font-family: 'Courier New', Courier, monospace
+    font-family: "Noto Sans KR", sans-serif;
+    
 }
 
 .frame {
