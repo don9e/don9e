@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<style>
+    /* ... (기존 스타일 코드) ... */
+        
+        /* Additional styles for the image grid */
+        @media (min-width: 769px) {
+            .dashboard ul {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 20px;
+                justify-content: center;
+            }
+            
+            .dashboard ul li {
+                text-align: center; /* 텍스트 가운데 정렬 추가 */
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .dashboard ul {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                gap: 10px;
+                text-align: center;
+            }
+            
+            .dashboard ul li {
+                text-align: center; /* 텍스트 가운데 정렬 추가 */
+            }
+        }
+    </style>
+</style>
+
+
+<body>
+
+
+    <div class="frame">
+
+        <nav class="navigator"> 
+
+            <a class="site-name" href="home.html"><b>don9e</b></a>
+
+            <ul>
+                <li><a class="nav-menu" href="home.html">don9e</a></li>
+                <li><a class="nav-menu" href="work.html"><b>work</b></a></li>
+                <li><a class="nav-menu" href="about.html">about</a></li>
+            </ul>
+
+        </nav>
+        
+
+        <div class="dashboard">
+
+            <ul>
+                <li><a class="architecture" href="architecture.html">architecture work</a></li>
+                <li><a class="glimpses" href="glimpses.html">찰나 (brief glimpses)</a> </li>
+                <li><a class="dish" href="dish.html">dish</a> </li>
+                <li><a class="shower" href="shower.html">샤워 끝. (end shower.)</a> </li>
+                <li><a class="grid" href="grid.html">Grid</a> </li>
+                <li><a class="zine" href="zine.html">zine series</a> </li>
+                
+            </ul>
+            
+            
+        </div>
+
+
+        <footer class="footer">
+            <h5 class="don9e">don9e</h5>
+            
+            <h5>© 2023. kim sudong. All rights reserved.</h5>
+        </footer>
+    </div>
+
+</body>
+
+</html>
