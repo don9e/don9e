@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /* 부모 div인 dashboard를 중앙에 배치하고, 너비를 100%로 */
+        .dashboard {
+            display: flex;
+            justify-content: left;
+            align-items: left;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+        }
+
+        /* iframe을 감싸는 div로, 16:9 비율을 유지함 */
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 800px; /* 데스크탑에서 최대 너비 */
+            height: auto;
+            margin-bottom: 20px; /* 동영상 사이에 여백 추가 */
+        }
+
+        .video-container::before {
+            content: "";
+            display: block;
+            padding-top: 56.25%; /* 16:9 비율 유지 */
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="frame">
+
+        <nav class="navigator"> 
+            <a class="site-name" href="home.html"><b>don9e</b></a>
+
+            <ul>
+                <li><a class="nav-menu" href="home.html">don9e</a></li>
+                <li><a class="nav-menu" href="work.html">work</a></li>
+                <li><a class="nav-menu" href="about.html"><b>about</b></a></li>
+            </ul>
+        </nav>
+
+        <h3 style="color: cornsilk;">video</h3>
+
+        <div class="dashboard">
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/새로운_동영상_링크" 
+                    title="새로운 동영상 제목" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/z1VMyO3hGYM" 
+                    title="짱돌찌개 미리보기" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/2qINuOR72sQ" 
+                    title="20" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/IDLVaqlO8_Y" 
+                    title="." frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/mOpNkifOYVE" 
+                    title="work" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/i6J7wmJeWL4" 
+                    title="21" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/jECu9S2KDOs" 
+                    title="채굴서비스" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/QEyN64Nr0DY" 
+                    title="531 왕자촌 촬영본" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/y8ZjTTNioKQ" 
+                    title="박시윤 촬영본" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/9dZeEmOL6vA" 
+                    title="밀과보리" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/38T-qHVKuoM" 
+                    title="Sat 23 Sep, 23" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/RqygQJixJH8" 
+                    title="매미" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/Is9UX5T1R-Y" 
+                    title="여정" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/IREVXn11KHQ" 
+                    title="Blue" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/Spf5sum-KrE" 
+                    title="찬" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/AC5jKwpUF_c" 
+                    title="20" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/O6B36XwmQQs" 
+                    title="체리_붕어빵_동렬_451" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/q56nLkSluZ4" 
+                    title="최대 비트레이트" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/kCSi1_YKz_A" 
+                    title="신동렬 촬영본" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/TmjuoBfHJHQ" 
+                    title="Me" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/cUVBDe26PmA" 
+                    title="개화시기 4월" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/1kpEX9-q6Kw" 
+                    title="Me" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/CeLAho1nMnI" 
+                    title="at Zenibako beach" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/meOkUrstYWs" 
+                    title="to Zenibako" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/ARetjl8IDrY" 
+                    title="주도제 2" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/CUhONyaEWto" 
+                    title="주도제 1" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/Vx7etihk3CE" 
+                    title="알아가거나 잊어가거나 사랑하거나 슬퍼하거나 잊어가거나 잊혀가거나 사랑해야지 슬퍼하지마" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/b1G665vHOHQ" 
+                    title="earth" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/XAIxQs-swlo" 
+                    title="흑 9점" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/kcM_P9LSPcs" 
+                    title="어(魚)" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/H--xgmPYO_0" 
+                    title="한라봉" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- 새로운 유튜브 동영상 추가 -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/IoqO_FC4Mqg" 
+                    title="일렁이는 안도의 건축" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="video-container">
+                <!-- '소금산' 유튜브 동영상 -->
+                <iframe src="https://www.youtube.com/embed/yjI2dP9Ue8o" 
+                    title="소금산" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="video-container">
+                <!-- 'Otaru' 유튜브 동영상 -->
+                <iframe src="https://www.youtube.com/embed/WxsHPN5wRp0" 
+                    title="Otaru" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="video-container">
+                <!-- 'alone in Tokyo' 유튜브 동영상 -->
+                <iframe src="https://www.youtube.com/embed/rZ_ZsqPzr3E" 
+                    title="alone in Tokyo" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+
+        </div>
+
+        <footer class="footer">
+            <h5 class="don9e">don9e</h5>
+            <h5>© 2023. kim sudong. All rights reserved.</h5>
+        </footer>
+    </div>
+
+</body>
+
+</html>
+
